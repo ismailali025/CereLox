@@ -86,47 +86,46 @@ The core of CereLoX is its **on-device security model**. Unlike other services t
 └── README.md
 ```
 
-## How It Works
 
-To run CereLoX directly from the source code, follow these steps to set up the backend server and frontend dashboard.
+## 🚀 How it works
 
-### 1. Clone & Setup 🚀
+Follow these steps to set up the backend server and frontend dashboard from source.
 
-1.  Clone the repository to your local machine:
-   
-    git clone https://github.com/YOUR_USERNAME/CereLoX.git
-    cd CereLoX/my-cyber-dashboard
-    
-2.  Install Frontend Dependencies:
-   
-    npm install
-    
-3.  Install Backend Dependencies:
-    You'll need Python installed. Run the following command:
-   
-    pip install flask flask-cors google-generativeai pywin32
-    
-### 2. Configure AI Features (Optional) 🧠
+### 1. Installation
+Clone the repository and install the necessary dependencies for both layers.
 
-1. Open server.py in your preferred code editor.
-2. Locate the line GEMINI_API_KEY = "PASTE_YOUR_KEY_HERE" and insert your Google Gemini API key. 
-*(If skipped, the dashboard will still function but the AI Chatbot will be disabled).*
+```bash
+# Clone the repository
+git clone [https://github.com/ismailali025/CereLox.git](https://github.com/ismailali025/CereLox.git)
+cd CereLox/my-cyber-dashboard
 
-### 3. Launch the Application ⚡
+# Install Frontend dependencies
+npm install
 
-You will need two separate terminal windows open, both pointing to the my-cyber-dashboard directory.
+# Install Backend dependencies
+pip install flask flask-cors google-generativeai pywin32
+```
 
-1.  Start the Backend (Terminal 1):
-   
-    python server.py
-    
-    This launches the Flask backend on http://localhost:5000 to parse Windows Event Logs.
+### 2. Configuration 🔑
+Create a `.env` file in the root directory and add your Google Gemini API key to enable the AI Chatbot features:
+```text
+GEMINI_API_KEY=your_actual_api_key_here
+```
 
-2.  Start the Frontend (Terminal 2):
-   
-    npm run dev
-    
-    This starts the Vite React application. Simply open the URL provided in the terminal (usually http://localhost:5173) in your web browser.
+### 3. Running the Application ⚡
+You must run the backend and frontend simultaneously in two separate terminals.
+
+**Terminal 1 (Backend):**
+```bash
+python server.py
+```
+*Initializes the Flask server on `http://localhost:5000` to parse Windows Event Logs.*
+
+**Terminal 2 (Frontend):**
+```bash
+npm run dev
+```
+*Starts the Vite development server. Open the local URL (typically `http://localhost:5173`) in your browser.*
 
 ## Authors
 
