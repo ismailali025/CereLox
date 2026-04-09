@@ -96,7 +96,7 @@ Clone the repository and install the necessary dependencies for both layers.
 
 ```bash
 # Clone the repository
-git clone [https://github.com/ismailali025/CereLox.git](https://github.com/ismailali025/CereLox.git)
+git clone https://github.com/ismailali025/CereLox.git
 cd CereLox/my-cyber-dashboard
 
 # Install Frontend dependencies
