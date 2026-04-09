@@ -9,11 +9,9 @@ A modern, secure, on-device Windows log analysis tool built for students and beg
 ![Languages](https://img.shields.io/github/languages/top/YOUR_USERNAME/CereLoX?style=for-the-badge)
 ![Repo Size](https://img.shields.io/github/repo-size/YOUR_USERNAME/CereLoX?style=for-the-badge)
 
-[CereLoX Dashboard Screenshot]
-*(TODO: Add a screenshot of your dashboard here)*
+![Dashboard](my-cyber-dashboard/public/Dashboard.png)
 
 **[Explore the Download Page ↗](https://cerelox-download-page.YOUR-USERNAME.replit.dev)**
-*(TODO: Replace with your final Replit or website link)*
 
 ---
 
@@ -51,6 +49,35 @@ The core of CereLoX is its **on-device security model**. Unlike other services t
 
 ---
 
+```.
+├── LICENSE
+├── my-cyber-dashboard
+│   ├── cerelox_logs.db
+│   ├── CyberChatbot.jsx
+│   ├── eslint.config.js
+│   ├── index.html
+│   ├── package.json
+│   ├── package-lock.json
+│   ├── postcss.config.js
+│   ├── public
+│   │   └── vite.svg
+│   ├── README.md
+│   ├── server-main.py
+│   ├── server.py
+│   ├── src
+│   │   ├── App.css
+│   │   ├── Appinitial.jsx
+│   │   ├── App.jsx
+│   │   ├── App- see Later.jsx
+│   │   ├── assets
+│   │   │   └── react.svg
+│   │   ├── index.css
+│   │   └── main.jsx
+│   ├── tailwind.config.js
+│   └── vite.config.js
+└── README.md
+```
+
 ## How It Works
 
 Using CereLoX is as easy as 1-2-3. Here's how you can secure and restore your files in a few simple steps.
@@ -79,12 +106,12 @@ Using CereLoX is as easy as 1-2-3. Here's how you can secure and restore your fi
 
 ---
 
-## Author
+## Authors
 
 **Team SaEcho**
 
-* **Email:** `infa.ismailali@gmail.com`
-* **GitHub:** `[github.com/ismailali025]`
+* **Email:** `infa.ismailai@gmail.com infa.khadershareef@gmail.com`
+* **GitHub:** ` [github.com/ismailali025] [github.com/KHADERSHAREEF19]`
 * **LinkedIn:** `[linkedin.com/in/Ismail Ali]`
 
 ---
