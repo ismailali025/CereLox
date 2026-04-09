@@ -9,7 +9,7 @@ A modern, secure, on-device Windows log analysis tool built for students and beg
 ![Languages](https://img.shields.io/github/languages/top/YOUR_USERNAME/CereLoX?style=for-the-badge)
 ![Repo Size](https://img.shields.io/github/repo-size/YOUR_USERNAME/CereLoX?style=for-the-badge)
 
-![Dashboard](my-cyber-dashboard/public/Dashboard.png)
+![Dashboard](my-cyber-dashboard/public/dashboard.png)
 
 **[Explore the Download Page ↗](https://cerelox-download-page.YOUR-USERNAME.replit.dev)**
 
