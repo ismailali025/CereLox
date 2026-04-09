@@ -4,10 +4,10 @@ AI-Powered Central Intelligence for logs
 
 A modern, secure, on-device Windows log analysis tool built for students and beginners.
 
-![Platform](https://img.shields.io/badge/Platform-Windows-0078D6?style=for-the-badge)
-![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)
-![Languages](https://img.shields.io/github/languages/top/YOUR_USERNAME/CereLoX?style=for-the-badge)
-![Repo Size](https://img.shields.io/github/repo-size/YOUR_USERNAME/CereLoX?style=for-the-badge)
+![Platform](https://img.shields.io/badge/Platform-Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge&logo=opensourceinitiative&logoColor=white)
+![Languages](https://img.shields.io/github/languages/top/ismailali025/CereLox?style=for-the-badge)
+![Repo Size](https://img.shields.io/github/repo-size/ismailali025/CereLox?style=for-the-badge)
 
 ![Dashboard](my-cyber-dashboard/public/dashboard.png)
 
