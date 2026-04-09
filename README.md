@@ -106,8 +106,8 @@ npm install
 pip install flask flask-cors google-generativeai pywin32
 ```
 
-### 2. Configuration 🔑
-Create a `.env` file in the root directory and add your Google Gemini API key to enable the AI Chatbot features:
+### 2. Configuration AI Feautures (Optional)🔑
+Open `server.py` file in  your preferred code editor. and add your Google Gemini API key to enable the AI Chatbot features. (If skipped, the dashboard will still function but the AI Chatbot will be disabled).
 ```text
 GEMINI_API_KEY=your_actual_api_key_here
 ```
