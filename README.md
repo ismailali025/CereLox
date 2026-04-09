@@ -80,31 +80,45 @@ The core of CereLoX is its **on-device security model**. Unlike other services t
 
 ## How It Works
 
-Using CereLoX is as easy as 1-2-3. Here's how you can secure and restore your files in a few simple steps.
+To run CereLoX directly from the source code, follow these steps to set up the backend server and frontend dashboard.
 
-### 1. Launch the Tool 🚀
+### 1. Clone & Setup 🚀
 
-1.  **Download and Run** the `CereLoX.exe` file from our website.
-2.  **That's it!** The tool will automatically open your default web browser to the CereLoX dashboard at `http://localhost:8888`.
+1.  Clone the repository to your local machine:
+   
+    git clone https://github.com/YOUR_USERNAME/CereLoX.git
+    cd CereLoX/my-cyber-dashboard
+    
+2.  Install Frontend Dependencies:
+   
+    npm install
+    
+3.  Install Backend Dependencies:
+    You'll need Python installed. Run the following command:
+   
+    pip install flask flask-cors google-generativeai pywin32
+    
+### 2. Configure AI Features (Optional) 🧠
 
-### 2. Analyze Your Dashboard 📊
+1. Open server.py in your preferred code editor.
+2. Locate the line GEMINI_API_KEY = "PASTE_YOUR_KEY_HERE" and insert your Google Gemini API key. 
+*(If skipped, the dashboard will still function but the AI Chatbot will be disabled).*
 
-1.  **View Your Data:** Instantly see charts and key metrics (like Failed Logins, System Errors) from the last 24 hours.
-2.  **Toggle Live Mode:** Click the "Live Mode" switch to have the dashboard auto-refresh every 10 seconds with new log data.
+### 3. Launch the Application ⚡
 
-### 3. Chat with the AI 🤖
+You will need two separate terminal windows open, both pointing to the my-cyber-dashboard directory.
 
-1.  **Click the Chat Icon** to open the floating AI assistant.
-2.  **Ask About Your Data:** "How many failed logins did I have today?"
-3.  **Ask General Questions:** "What is Event ID 4625?"
+1.  Start the Backend (Terminal 1):
+   
+    python server.py
+    
+    This launches the Flask backend on http://localhost:5000 to parse Windows Event Logs.
 
-### 4. Generate Reports 📄
-
-1.  **Navigate to the Reports Tab** in the dashboard.
-2.  **Select Your Format:** Click "Download PDF," "Download CSV," or "Download JSON."
-3.  **Save Your File:** A professional report will be instantly generated and saved to your computer.
-
----
+2.  Start the Frontend (Terminal 2):
+   
+    npm run dev
+    
+    This starts the Vite React application. Simply open the URL provided in the terminal (usually http://localhost:5173) in your web browser.
 
 ## Authors
 
